@@ -77,9 +77,15 @@ var fillPage5 = function(browser) {
   browser.pause(5000)
   browser.frame(0)
   browser
-  .click('#isc_Otable > tbody > tr:nth-child(64)')
-  .click('#isc_9Ntable > tbody > tr > td > div > nobr')
-  .click('#isc_AI')
+  .click('#isc_Q > img:nth-child(3)')
+  .click('#isc_Q > img:nth-child(3)')
+  .click('#isc_Q > img:nth-child(3)')
+  .click('#isc_Q > img:nth-child(3)')
+  .click('#isc_Q > img:nth-child(3)')
+  .click('#isc_Otable > tbody > tr:nth-child(20)')
+  .click('#isc_O > div:nth-child(2) > div > div > div > div:nth-child(1) > div > form > table > tbody > tr:nth-child(2) > td:nth-child(2)')
+  .click('#isc_1O')
+  .click('#isc_O > div:nth-child(2) > div > div > div > div:nth-child(1) > div > div')
   .pause(10000)
 }
 
